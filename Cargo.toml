@@ -1,0 +1,20 @@
+[package]
+name = "derive-combine"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andrew Gazelka <andrew.gazelka@gmail.com>"]
+description = "A macro for combining multiple structs into one"
+license = "MIT"
+repository = "https://github.com/andrewgazelka/derive-combine"
+readme = "README.md"
+keywords = ["derive", "combine", "struct", "macro"]
+categories = ["macros", "no-std"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+anyhow = "1.0.71"
+proc-macro2 = "1.0.56"
+quote = "1.0.26"
+syn = "2.0.15"
